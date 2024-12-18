@@ -7,18 +7,18 @@
 
 <p align="center">
   <a href="http://wpa.qq.com/msgrd?v=3&uin=142997&site=qq&menu=yes"><img alt="Albert.Z" src="https://img.shields.io/badge/Author-Albert.Z-blue.svg"></a>
-  <a href="[https://github.com/Dejavu-Tech/EP-WechatApp/License](https://github.com/Dejavu-Tech/EP-WechatApp/blob/master/LICENSE)"><img alt="GPL-v3协议" src="https://img.shields.io/badge/GPL-v3-red"></a>
-  <a href="https://github.com/Dejavu-Tech/EP-WechatApp/releases"><img alt="最新版本" src="https://img.shields.io/badge/version-6.0.0bata-brightgreen"></a>
-  <a href="https://img.shields.io/github/stars/Dejavu-Tech/EP-WechatApp.svg?style=social&label=Stars"><img alt="笔芯" src="https://img.shields.io/github/stars/Dejavu-Tech/EP-WechatApp.svg?style=social&label=Stars"></a>
+  <a href="[https://github.com/eaterplanet/EP-WechatApp/License](https://github.com/eaterplanet/EP-WechatApp/blob/master/LICENSE)"><img alt="GPL-v3协议" src="https://img.shields.io/badge/GPL-v3-red"></a>
+  <a href="https://github.com/eaterplanet/EP-WechatApp/releases"><img alt="最新版本" src="https://img.shields.io/badge/version-6.0.0bata-brightgreen"></a>
+  <a href="https://img.shields.io/github/stars/eaterplanet/EP-WechatApp.svg?style=social&label=Stars"><img alt="笔芯" src="https://img.shields.io/github/stars/eaterplanet/EP-WechatApp.svg?style=social&label=Stars"></a>
   <br/>
-  <a href="https://github.com/Dejavu-Tech/EP-WechatApp/issues/new/choose">报告 Bug</a>&nbsp;·&nbsp;<a href="https://github.com/Dejavu-Tech/EP-WechatApp/new/choose">性能优化建议</a>
+  <a href="https://github.com/eaterplanet/EP-WechatApp/issues/new/choose">报告 Bug</a>&nbsp;·&nbsp;<a href="https://github.com/eaterplanet/EP-WechatApp/new/choose">性能优化建议</a>
 </p>
 
 
 ## 🌻简介
 > 吃货星球5.x是一套基于SOA架构的分布式S2B2C新零售团购电商系统，包括前端微信小程序及后端管理系统。
 > `EP-WechatApp`前端基于原生组件开发，繁琐但易于优化和维护，秉承高颜高速且功能强大是我们的一贯宗旨。
-> 本项目需要配合项目后端使用，Github: https://github.com/Dejavu-Tech/EP-Admin
+> 本项目需要配合项目后端使用，Github: https://github.com/eaterplanet/EP-Admin
 
 ## 💾组织结构
 ``` lua
@@ -77,7 +77,7 @@ EATER-PLANET
 #### 3.注册腾讯地图AppKey
 打开<a href="https://lbs.qq.com">腾讯地图</a>注册后，右上角点击控制台→创建应用→添加Key→输入Key名称→勾选微信小程序→填入小程序的AppID，获得并保存Key。
 #### 4.添加小程序的合法域名
-按照后端<a href="https://github.com/Dejavu-Tech/EP-Admin">EP-Admin</a>中服务器环境搭建完毕后。登录<a href="https://mp.weixin.qq.com">微信公众平台</a>→平台开发→开发管理→开发设置→服务器域名→修改，“request合法域名”填入：
+按照后端<a href="https://github.com/eaterplanet/EP-Admin">EP-Admin</a>中服务器环境搭建完毕后。登录<a href="https://mp.weixin.qq.com">微信公众平台</a>→平台开发→开发管理→开发设置→服务器域名→修改，“request合法域名”填入：
 ```
 https://自己的后端服务器域名;
 https://apis.map.qq.com;
@@ -97,7 +97,7 @@ https://wx.qlogo.cn
 
 ## 📦️环境搭建
 #### 1.下载本项目
-<a href="https://api.github.com/repos/Dejavu-Tech/EP-WechatApp/tarball/5.0.0">点此下载压缩包</a>或使用 `git clone https://github.com/Dejavu-Tech/EP-WechatApp.git` 克隆本仓库到本地，亦或fork本项目后在<a href="https://api.github.com/repos/Dejavu-Tech/EP-WechatApp/tarball/4.7.0">GitHub Desktop</a>中打开。
+<a href="https://api.github.com/repos/eaterplanet/EP-WechatApp/tarball/5.0.0">点此下载压缩包</a>或使用 `git clone https://github.com/eaterplanet/EP-WechatApp.git` 克隆本仓库到本地，亦或fork本项目后在<a href="https://api.github.com/repos/eaterplanet/EP-WechatApp/tarball/4.7.0">GitHub Desktop</a>中打开。
 
 #### 2.微信开发者工具
 下载<a href="https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html">微信开发者工具</a>，微信扫码登录后点击创建小程序→目录选择本项目根目录→填入自己小程序的 AppID→后端服务勾选不使用云服务→语言选择JavaScript→新建；
@@ -110,7 +110,7 @@ module.exports = siteinfo
 点击右上角上传，即可在微信公众平台中扫码预览体验版或发布。
 
 ## 🔎文档源码
-<a target="_blank" href="https://github.com/Dejavu-Tech/EP-Documents">EP-Documents</a>
+<a target="_blank" href="https://github.com/eaterplanet/EP-Documents">EP-Documents</a>
 
 ## 🔨版本说明
 本项目源码为基础版，未包含拼团、分销、接龙、预售等营销功能，点⭐并同意我公司《服务协议》和《隐私条款》即可商用
@@ -126,7 +126,7 @@ module.exports = siteinfo
 ## 🌱远程招贤纳猿
 新版吃货星球☢其他项目需要Go、前端等人柱力加持，按代码量贡献度持股，有意者猛戳<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=142997&site=qq&menu=yes">👆👆👆</a>
 
-## 📜许可证 [Apache-2.0](https://github.com/Dejavu-Tech/EP-WechatApp/blob/master/LICENSE)
+## 📜许可证 [Apache-2.0](https://github.com/eaterplanet/EP-WechatApp/blob/master/LICENSE)
 
 ## 🌎️软件著作权及其他版权所有
 <img src="https://image.ch871.com/rexotech.png" width="25px" align="left"/>
